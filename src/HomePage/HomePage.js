@@ -68,13 +68,13 @@ function HomePage() {
                 </p>
             </div>
     
-            <article><h1>801363716's Chart</h1>
+            {/* <article><h1>801363716's Chart</h1> */}
                 <p>
-                    <canvas id="myChart" width="800" height="300"></canvas>
+                    {/* <canvas id="myChart" width="800" height="300"></canvas> */}
                 </p>
-            </article>
-            <h1>801363716's D3JSChart</h1>
-           <div id="pie-chart"></div>
+            {/* </article> */}
+            {/* <h1>801363716's D3JSChart</h1> */}
+           {/* <div id="pie-chart"></div> */}
             
 
         </div>
