@@ -15,7 +15,7 @@ import { Chart, ArcElement, Tooltip, Legend } from 'chart.js/auto';
 import Chartd from './chart data/chartdata';
 Chart.register(ArcElement, Tooltip, Legend);
 
-const baseUrl = "http://localhost:3000/budget"
+const baseUrl = "http://localhost:3001/budget"
 
 function App() {
   const [dataSource, setDataSource] = useState({
