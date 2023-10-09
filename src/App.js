@@ -40,7 +40,7 @@ function App() {
   const [dataSourceNew, setDataSourceNew] = useState([])
 
   useEffect(() => {
-    axios.get(`${baseUrl}`)
+    axios.get(`${baseUrl}`) // base url is declared above as local host 3000 it will take data from there and run please refer line 18 for clarifications 
       .then((res) => {
         setDataSourceNew(res.data.myBudget);
         setDataSource(
